@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: "Simpsonfont";
+    src: local("Simpsonfont");
+         
+   }
+header {
+
+    text-align: center;
+    justify-content: center;
+    font-family: "Simpsonfont";
+    font-size: 100px;
+    
+}
+
+body {
+    background-image: url("homer.jpg");
+}
+
+#simpson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Simpsonfont";
+    
+
+}
+#btn{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url("doh1.png");
+}
+
+
